@@ -35,6 +35,9 @@ p{
   font-size: 55px;
   color: #f286e6;
 }
+.carousel-inner{
+   height: 100%;
+}
 .color-section{
   background-color: #e7eef4;
   color: #2d3345;
@@ -64,6 +67,15 @@ p{
   width:30%;
   margin: 20px 20px 50px;
 }
+.selector
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
 .testimonial-title{
   padding-bottom: 2rem;
 }
@@ -73,10 +85,6 @@ p{
 #about{
   text-align: center;
   padding: 7rem 5rem;
-}
-#cpstar{
-  height: 50%;
-  width: 50%;
 }
 #cta{
   text-align: center;
